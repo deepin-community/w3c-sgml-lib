@@ -1,0 +1,98 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Contact: http://validator.w3.org/feedback.html
+Source: http://validator.w3.org/dist/sgml-lib.tar.gz
+Upstream-Name: W3C SGML Library
+
+Files: *
+Copyright: 1994-2002, W3C(R) (MIT, ERCIM, KEIO)
+License: W3C-Software
+Comment: License Grant
+ Schemas (and DTDs) are frequently part of our specifications and
+ seemingly fall under the document copyright terms. However, as long as
+ you do not use the same formal namespace or public identifier to
+ identify that modified W3C schema/DTD (which might confuse
+ applications), you may treat the schema/DTD under the software terms.
+ This means that you are permitted to make a derivative or modified W3C
+ schema/DTD, but even under the software terms you are obligated to
+ include/retain the W3C copyright notice. We further appreciate a couple
+ sentences regarding who made the modifications, when, and what changes
+ were made in the original DTD -- a common software documentation practice.
+ .
+ From: http://web.archive.org/web/20010602194347/http://www.w3.org/Consortium/Legal/IPR-FAQ-20000620.html#DTD
+
+Files: htdocs/sgml-lib/REC-xhtml1-20020801/xhtml1-*.dtd
+Copyright: 1994-2002, W3C(R) (MIT, ERCIM, KEIO)
+License: W3C-Software
+Comment: License Grant
+ However, if no specific license exists for such a DTD or schema, as
+ long as you do not use the same formal namespace or public identifier
+ to identify that modified W3C schema/DTD (which might confuse
+ applications), you often may treat the schema/DTD under the software
+ terms. This means that you are permitted to make a derivative or
+ modified W3C schema/DTD, but even under the software terms you are
+ obligated to include/retain the W3C copyright notice. We further
+ appreciate a couple sentences regarding who made the modifications,
+ when, and what changes were made in the original DTD - a common
+ software documentation practice.
+ .
+ From: http://web.archive.org/web/20020806141443/http://www.w3.org/Consortium/Legal/IPR-FAQ-20000620.html#DTD
+
+Files: debian/*
+Copyright: 2010-2012, Nicholas Bamber <nicholas@periapt.co.uk>
+License: Artistic
+
+License: W3C-Software
+ This W3C work (including software, documents, or other related items)
+ is being provided by the copyright holders under the following 
+ license. By obtaining, using and/or copying this work, you (the 
+ licensee) agree that you have read, understood, and will comply with
+ the following terms and conditions:
+ .
+ Permission to use, copy, modify, and distribute this software and its
+ documentation, with or without modification,  for any purpose and
+ without fee or royalty is hereby granted, provided that you include the
+ following on ALL copies of the software and documentation or portions
+ thereof, including modifications, that you make:
+   * The full text of this NOTICE in a location viewable to users of the
+     redistributed or derivative work.
+   * Any pre-existing intellectual property disclaimers, notices, or
+     terms and conditions. If none exist, a short notice of the
+     following form (hypertext is preferred, text is permitted) should
+     be used within the body of any redistributed or derivative code:
+     "Copyright © [$date-of-software] World Wide Web Consortium,
+     (Massachusetts Institute of Technology, Institut National de
+     Recherche en Informatique et en Automatique, Keio University). All
+     Rights Reserved. http://www.w3.org/Consortium/Legal/"
+   * Notice of any changes or modifications to the W3C files, including
+     the date changes were made. (We recommend you provide URIs to the
+     location from which the code is derived.)
+ .
+ THIS SOFTWARE AND DOCUMENTATION IS PROVIDED "AS IS," AND COPYRIGHT
+ HOLDERS MAKE NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED,
+ INCLUDING BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS
+ FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE OR
+ DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS,
+ TRADEMARKS OR OTHER RIGHTS.
+ .
+ COPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL
+ OR CONSEQUENTIAL DAMAGES ARISING OUT OF ANY USE OF THE SOFTWARE OR
+ DOCUMENTATION.
+ .
+ The name and trademarks of copyright holders may NOT be used in
+ advertising or publicity pertaining to the software without specific,
+ written prior permission. Title to copyright in this software and any
+ associated documentation will at all times remain with copyright
+ holders.
+ .
+ From: http://web.archive.org/web/20021010093258/http://www.w3.org/Consortium/Legal/copyright-software-19980720
+
+License: Artistic
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the Artistic License, which comes with Perl.
+ .
+ On Debian GNU/Linux systems, the complete text of the Artistic License
+ can be found in `/usr/share/common-licenses/Artistic'
+ .
+ By obtaining, using and/or copying this work, you (the licensee)
+ agree that you have read, understood, and will comply with the following
+ terms and conditions.
